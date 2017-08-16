@@ -19,8 +19,7 @@ int main() {
   int depth = 0, i = 0;
   string tag, thread;
   bool inTag = false,
-    inThread = false,
-    inParticipant = false;
+    inThread = false;
 
   ifstream src(kInputFile);
 
